@@ -1,0 +1,5 @@
+/.coverage
+/.vscode
+/db.sqlite3
+/manage.py
+/venv
