@@ -3,3 +3,4 @@
 /db.sqlite3
 /manage.py
 /venv
+/frontend/node_modules/
