@@ -1,7 +1,8 @@
 import React, { Component } from "react"
 import { render } from "react-dom"
+import "./data.css"
 
-class App extends Component{
+class Data extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -46,7 +47,7 @@ class App extends Component{
     }
 }
 
-export default App;
+export default Data;
 
-const container = document.getElementById("app");
-render(<App />, container);
+const container = document.getElementById("data");
+render(<Data />, container);
